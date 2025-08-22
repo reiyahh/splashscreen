@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/round"
+    android:padding="16dp"
+    android:layout_marginBottom="12dp"
+    android:elevation="4dp">
+
+    <TextView
+        android:id="@+id/doctorName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dr. luwe"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/doctorSpecialty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hematologist"
+        android:textSize="16sp"
+        android:textColor="#555555"
+        android:layout_marginTop="4dp" />
+
+    <TextView
+        android:id="@+id/doctorContact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+1234567890"
+        android:textSize="14sp"
+        android:textColor="#777777"
+        android:layout_marginTop="4dp" />
+</LinearLayout>

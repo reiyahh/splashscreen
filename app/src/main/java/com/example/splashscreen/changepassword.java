@@ -1,0 +1,16 @@
+package com.example.splashscreen;
+
+import android.os.Bundle;
+import android.widget.Toast;
+import androidx.appcompat.app.AppCompatActivity;
+
+public class changepassword extends AppCompatActivity {
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_changepassword);
+
+        // TODO: Implement password change logic here
+        Toast.makeText(this, "Change password feature coming soon!", Toast.LENGTH_SHORT).show();
+    }
+}
